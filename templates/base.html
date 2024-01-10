@@ -3,9 +3,16 @@
 <head>
     
     <title>{% block title %}Company Website{% endblock %}</title>
+    
+
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+
+
 </head>
 <body>
-    
+
     <!-- Include the header -->
     {% include 'header.html' %}
 
