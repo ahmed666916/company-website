@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>{% block title %}Company Website{% endblock %}</title>
+</head>
+<body>
+    
+    <!-- Include the header -->
+    {% include 'header.html' %}
+
+    <!-- Main content block -->
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Include the footer -->
+    {% include 'footer.html' %}
+
+    <!-- Your common scripts or JavaScript links -->
+</body>
+</html>
