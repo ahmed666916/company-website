@@ -1,13 +1,23 @@
 <!DOCTYPE html>
+{% load static %}
+
 <html lang="en">
 <head>
     
     <title>{% block title %}Company Website{% endblock %}</title>
     
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
     {% load bootstrap5 %}
+
     {% bootstrap_css %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    
     {% bootstrap_javascript %}
+
+    <script src="{% static 'main.js' %}"></script>
+
 
 
 </head>
