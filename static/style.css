@@ -9,6 +9,18 @@
     height: 100vh;
 }
 
+/* Styling for other sections (About, Contact, Services) */
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* Add other styling properties as needed */
+}
+
+
 #mainNav {
     position: sticky;
     top: 0;
